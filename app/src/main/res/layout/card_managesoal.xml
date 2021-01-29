@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!--        id untuk proses CRUD berdasarkan ID yang di passing-->
+        <!--        kita hanya memerlukan value , jadi visibility diset gone-->
+        <TextView
+            android:id="@+id/idsoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hanya Id"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Soal"
+            android:textColor="@color/blackTextColor"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvdeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Soal"
+            android:textColor="@color/blackTextColor"
+            android:textSize="8sp" />
+        
+        <RadioGroup
+            android:id="@+id/rgOpsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        <RadioButton
+            android:id="@+id/opsiA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilihan A" />
+
+        <RadioButton
+            android:id="@+id/opsiB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilihan B" />
+
+        <RadioButton
+            android:id="@+id/opsiC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilihan C" />
+
+        <RadioButton
+            android:id="@+id/opsiD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilihan D" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
