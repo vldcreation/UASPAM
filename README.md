@@ -1,6 +1,7 @@
 ### ProjectPAM
 
 ![Visits](https://badges.pufler.dev/visits/vldcreation/uaspam?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/vldcreation/uaspam?style=for-the-badge)
 
 ```
 ##How to Configure
