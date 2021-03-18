@@ -1,5 +1,6 @@
 ### ProjectPAM
 
+![Visits](https://badges.pufler.dev/visits/vldcreation/uaspam?style=for-the-badge)
 
 ```
 ##How to Configure
